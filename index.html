@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">Food Store</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+                Welcome to My Food Store</span>
+            </h1>
+
+            <p class="tertiary">
+                Satisfy your cravings and explore a world of culinary delights at Food Store, 
+                your ultimate destination for a mouthwatering fusion of flavors. From the fragrant spices of 
+                biryani to the cheesy goodness of pizza, the juicy tenderness of chicken to the hearty satisfaction
+                 of burgers and the comforting embrace of pasta, we've got all your favorite dishes and more in one convenient place.
+                 </p>
+
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+        <div class="visual">
+            <img src="./homepage.jpg" alt=""/>
+    </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Our Product</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="./veg.avif"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">All Veg Items</p>
+                    <ul class="meal-attributes">
+
+
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>650</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="./pizza3.jpg"
+                    class="meal-img" alt="Avocado Salad" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Junk Food</span>
+                      
+                    </div>
+                    <p class="meal-title">Pizza</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>400</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="./chicken.jpg"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Non Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Chicken</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>450</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>86</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.4</strong> rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>How It's Work</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    It's very easy to place order & After placing your order, you'll receive real-time updates on its status, from preparation to delivery. 
+                    Track your order every step of the way and receive notifications when it's out for
+                     delivery, ensuring that you're always in the know.
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                <p>
+                    We believe in Best quality. That's why we provide detailed information 
+                    about the origin, production methods, and nutritional content of our products, so you can make informed choices
+                     about what you eat. With our commitment to traceability, you can trust that our products are ethically sourced and responsibly produced.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Fast Delivery</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    Sit back and relax while we bring the flavors to you. Our efficient delivery service ensures 
+                    that your order arrives fresh and on time, straight to your doorstep. Whether you're stocking 
+                    up on essentials or treating yourself to something special, you can count on us to deliver your
+                     order with care and precision. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="./pizza3.webp" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">About Our Restaurant</div>
+                <h2 class="primary">200+</h2>
+
+                <h3 class="tertiary">Our Delicious Food</h3>
+
+                <p>
+                    Embark on a gastronomic journey like no other as we delve into the divine offerings of Food Store.Nestled in the heart 
+                    of People,  this culinary haven promises an unforgettable dining experience, where every dish is crafted with precision 
+                    and passion.At Food Store, dining is not just about satisfying hunger; it's a visual feast as well. Witness culinary 
+                    artistry at its finest as our expert chefs present each dish with impeccable finesse, transforming your meal into a work 
+                    of art.
+
+
+
+
+                </p>
+
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active">All</li>
+                <li>Biryani</li>
+                <li>Chicken</li>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Pasta</li>
+            </ul>
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="./biryani1.jpg"
+                            alt="" />
+
+                        <div class="title">Chicken Biryani | Non Veg</div>
+
+                        <div class="location">AP,India</div>
+
+                        <div class="order flex">
+                            <div class="price">&#8377;25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./biryani2.jpg"
+                            alt="" />
+
+                        <div class="title"> Mutton Biryani| Non Veg</div>
+
+                        <div class="location">AP, India</div>
+
+                        <div class="order flex">
+                            <div class="price">&#8377; 25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./chicken.jpg"
+                            alt="" />
+
+                        <div class="title">Chicken | Non Veg</div>
+
+                        <div class="location">AP, India</div>
+
+                        <div class="order flex">
+                            <div class="price">&#8377;25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./pizza1.jpg"
+                            alt="" />
+
+                        <div class="title">Pizza | Junk food</div>
+
+                        <div class="location">AP, India</div>
+
+                        <div class="order flex">
+                            <div class="price">&#8377;25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./pizza2.jpg"
+                            alt="" />
+
+                        <div class="title">Pizza | Junk Food</div>
+
+                        <div class="location">AP, India</div>
+
+                        <div class="order flex">
+                            <div class="price">&#8377;25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./burger1.jpg"
+                            alt="" />
+
+                        <div class="title">Burger | Junk Food</div>
+
+                        <div class="location">AP, India</div>
+
+                        <div class="order flex">
+                            <div class="price">&#8377;25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu-item">
+                        <img src="pasta1.jpg"
+                            alt="" />
+
+                        <div class="title">Pasta | Healthy Meal</div>
+
+                        <div class="location">AP, India</div>
+
+                        <div class="order flex">
+                            <div class="price">&#8377;25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./pasta2.jpg"
+                            alt="" />
+
+                        <div class="title">Pasta | Healthy Meal</div>
+
+                        <div class="location">AP, India</div>
+
+                        <div class="order flex">
+                            <div class="price">&#8377;25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <details>
+                <summary>How do you handle food safety and hygiene?</summary>
+                <div class="content">
+                    <p>
+                        
+                        Food safety and hygiene are our top priorities. Our warehouse facilities are equipped with stringent 
+                        sanitation protocols, 
+                        and our staff undergo regular training to uphold
+                       food safety standards. Additionally, we carefully monitor product expiration dates and ensure proper storage conditions.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>How do you handle shipping and delivery?</summary>
+                <div class="content">
+                    <p>
+                        
+We offer reliable shipping and delivery services to ensure your food products arrive safely and promptly. Shipping options and delivery times may vary depending on your location. 
+You can find detailed information about shipping rates and delivery times during the checkout process.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>What is your return policy for food products?</summary>
+                <div class="content">
+                    <p>
+                        
+We strive to provide customer satisfaction with every purchase. If you are not completely satisfied with your food products, please contact our customer 
+service team within [number] days of receiving your order for assistance with returns or exchanges.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Are there any discounts or promotions available?</summary>
+                <div class="content">
+                    <p>
+                        We frequently offer discounts, promotions, and special offers on our food products. 
+                        Be sure to sign up for our newsletter or follow us on social media to stay updated on the latest deals and promotions.
+                        
+                        
+                        
+
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>  How can I contact customer support for further assistance?</summary>
+                <div class="content">
+                    <p>
+                      
+If you have any additional questions or need further assistance, our customer support team is here to help. You can 
+contact us via email, phone, or live chat during our business hours, and we'll be happy to assist you.
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+        <div class="container flex">
+            <div class="app-photo">
+                <img width="500px" src="pngegg.png" alt="" />
+            </div>
+
+            <div class="text">
+                <h2 class="secondary">Download The FoodStore App</h2>
+                <p>
+                    
+Our mobile app brings the convenience of food shopping directly to your smartphone.
+ Browse, shop, and order your favorite food products with just a few taps, anytime and anywhere.
+                </p>
+
+                <div class="download flex">
+                    <div class="app-store">
+                        <ion-icon name="logo-google-playstore"></ion-icon>
+                        <p>
+                            GET IT ON <br />
+                            <span>Google Play</span>
+                        </p>
+                    </div>
+
+                    <div class="app-store">
+                        <ion-icon name="logo-apple"></ion-icon>
+                        <p>
+                            Donload on the <br />
+                            <span>App Store</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex">
+            <div class="footer-about">
+                <h2>About FoodStore</h2>
+                <p>
+                    Quality is at the heart of everything we do. We meticulously select each product in our inventory, ensuring that it meets our stringent 
+                    standards for quality. From farm-fresh produce to artisanal delicacies, 
+                    every item is carefully curated to delight your senses and exceed your expectations.
+                </p>
+            </div>
+
+            <div class="footer-category">
+                <h2>Our Menu</h2>
+
+                <ul>
+                    <li>Biryani</li>
+                    <li>Chicken</li>
+                    <li>Pizza</li>
+                    <li>Burger</li>
+                    <li>Pasta</li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="get-in-touch">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li>Account</li>
+                    <li>Support Center</li>
+                    <li>Feedback</li>
+                    <li>Suggession</li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </div>
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+
+</html>
